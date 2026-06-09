@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projetos - Portfólio de Carreira</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <aside class="sidebar" id="sidebar"></aside>
+
+    <header class="topbar">
+        <button class="hamburger" id="hamburger" aria-label="Menu">&#9776;</button>
+        <span class="topbar-title">Projetos</span>
+    </header>
+
+    <div class="overlay" id="overlay"></div>
+
+    <main class="main">
+
+        <div class="page-header">
+            <h1>🛠️ Projetos</h1>
+        </div>
+
+        <div class="alert alert-info">
+            Projetos práticos desenvolvidos ao longo da graduação e por iniciativa própria,
+            que compõem o portfólio técnico e evidenciam as competências em desenvolvimento.
+        </div>
+
+        <p class="section-title">Projetos em Destaque</p>
+
+        <div class="card card-highlight">
+            <div class="project-card-header">
+                <div>
+                    <h2 style="margin-bottom:.25rem">🔭 Stack de Observabilidade com Microsserviços</h2>
+                    <p style="font-size:.8rem;color:var(--text-muted)">Projeto pessoal · 2024</p>
+                </div>
+                <span class="tag tag-green">Concluído</span>
+            </div>
+            <p>
+                Arquitetura de microsserviços com Spring Boot e FastAPI integrada a uma stack completa
+                de observabilidade: métricas com Prometheus e Grafana, tracing distribuído com Jaeger
+                e OpenTelemetry, logs centralizados com Loki. Orquestração via Docker Compose.
+            </p>
+            <div class="tags" style="margin-top:.75rem">
+                <span class="tag tag-blue">Java</span>
+                <span class="tag tag-blue">Spring Boot</span>
+                <span class="tag tag-blue">FastAPI</span>
+                <span class="tag tag-blue">Kafka</span>
+                <span class="tag tag-gray">Prometheus</span>
+                <span class="tag tag-gray">Grafana</span>
+                <span class="tag tag-gray">Docker</span>
+            </div>
+            <div style="margin-top:.85rem">
+                <a href="https://github.com/seuusuario/observabilidade" target="_blank" class="btn btn-primary">🐙 Ver
+                    no GitHub</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="project-card-header">
+                <div>
+                    <h2 style="margin-bottom:.25rem">🔐 API REST com OAuth2 e Keycloak</h2>
+                    <p style="font-size:.8rem;color:var(--text-muted)">Projeto acadêmico · 2024</p>
+                </div>
+                <span class="tag tag-green">Concluído</span>
+            </div>
+            <p>
+                API REST desenvolvida com Spring Boot e autenticação/autorização gerenciada pelo
+                Keycloak via OAuth2 e JWT. Implementação de RBAC com roles e scopes, integração
+                com PostgreSQL e migrations via Liquibase.
+            </p>
+            <div class="tags" style="margin-top:.75rem">
+                <span class="tag tag-blue">Spring Boot</span>
+                <span class="tag tag-blue">Keycloak</span>
+                <span class="tag tag-blue">OAuth2 / JWT</span>
+                <span class="tag tag-gray">PostgreSQL</span>
+                <span class="tag tag-gray">Liquibase</span>
+            </div>
+            <div style="margin-top:.85rem">
+                <a href="https://github.com/seuusuario/api-keycloak" target="_blank" class="btn btn-primary">🐙 Ver no
+                    GitHub</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="project-card-header">
+                <div>
+                    <h2 style="margin-bottom:.25rem">📋 Dashboard Full-stack com Next.js</h2>
+                    <p style="font-size:.8rem;color:var(--text-muted)">Projeto pessoal · 2025</p>
+                </div>
+                <span class="tag tag-blue">Em andamento</span>
+            </div>
+            <p>
+                Aplicação full-stack com Next.js no front-end e FastAPI no back-end, com
+                funcionalidades de drag-and-drop para organização de cards, autenticação
+                por JWT e notificações por e-mail com sistema de filas.
+            </p>
+            <div class="tags" style="margin-top:.75rem">
+                <span class="tag tag-blue">Next.js</span>
+                <span class="tag tag-blue">TypeScript</span>
+                <span class="tag tag-blue">FastAPI</span>
+                <span class="tag tag-gray">PostgreSQL</span>
+                <span class="tag tag-gray">Alembic</span>
+            </div>
+            <div style="margin-top:.85rem">
+                <a href="https://github.com/seuusuario/dashboard" target="_blank" class="btn btn-primary">🐙 Ver no
+                    GitHub</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="project-card-header">
+                <div>
+                    <h2 style="margin-bottom:.25rem">🌐 Portfólio de Carreira (este site)</h2>
+                    <p style="font-size:.8rem;color:var(--text-muted)">Projeto acadêmico · 2025</p>
+                </div>
+                <span class="tag tag-green">Concluído</span>
+            </div>
+            <p>
+                Site pessoal desenvolvido para a disciplina de Projetos, documentando a jornada
+                de autoconhecimento e planejamento de carreira. HTML, CSS e JavaScript puros,
+                hospedado no GitHub Pages.
+            </p>
+            <div class="tags" style="margin-top:.75rem">
+                <span class="tag tag-blue">HTML</span>
+                <span class="tag tag-blue">CSS</span>
+                <span class="tag tag-blue">JavaScript</span>
+                <span class="tag tag-gray">GitHub Pages</span>
+            </div>
+        </div>
+
+    </main>
+    <script src="js/sidebar.js"></script>
+</body>
+
+</html>
